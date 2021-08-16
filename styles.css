@@ -42,13 +42,14 @@ html {
 }
 
 .adminka-wrapper {
-  height: 100px;
+  display: flex;
+  height: 500px;
 }
 
 .adminka-cards {
   background-color: rgb(219, 210, 210);
   max-width: 400px;
-  padding: 40px;
+  padding: 40px 0 0 40px;
 }
 
 .adminka-card-top {
@@ -57,7 +58,7 @@ html {
 }
 
 .adminka-card__header {
-  color: #222;
+  color: #444;
 }
 
 .button__add {
@@ -65,21 +66,85 @@ html {
   border: none;
   margin-left: auto;
   cursor: pointer;
+  padding-right: 60px;
 }
 
 
 /* Form  */
 .form {
-  height: 300px;
+  height: 370px;
   overflow: auto;
 }
 .input-wrapper {
   background-color: #fff;
   border-radius: 5px;
   padding: 10px;
+  width: 300px;
 }
 .input-wrapper:not(last-child) {
   margin-bottom: 20px;
 }
 .card {
+  /* border: 1px solid #ccc; */
+}
+
+.balance {
+  background-color: #fff;
+  padding: 50px;
+  width: 500px;
+  height: 500px;
+overflow: auto;
+}
+
+.balance-top {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+
+
+
+.balance__heading {
+  margin-right: auto;
+  color: #444;
+}
+
+.balnace-top__money {
+
+}
+.products-list {
+  list-style: none;
+  overflow: auto;
+  padding-left: 0;
+}
+.products-item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.product-button {
+  background-color: transparent;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 50%; */
+  border: none;
+  padding: 0;
+}
+
+.balance-content {
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.balance__headeing__buttom {
+  font-size: 18px;
+}
+
+.balance__text {
+  font-weight: 400;
+  font-size: 14px;
+
+}
+
+.price {
+  color: #734488;
 }
