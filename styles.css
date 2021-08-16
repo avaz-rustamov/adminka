@@ -26,21 +26,34 @@ html {
   margin-right: auto;
 }
 
+.visually-hiddin {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .adminka {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .adminka-wrapper {
+  height: 100px;
 }
 
 .adminka-cards {
-  background-color: rgba(204, 204, 204, 0.829);
+  background-color: rgb(219, 210, 210);
   max-width: 400px;
   padding: 40px;
 }
 
 .adminka-card-top {
   display: flex;
+  margin-bottom: 40px;
 }
 
 .adminka-card__header {
@@ -52,6 +65,21 @@ html {
   border: none;
   margin-left: auto;
   cursor: pointer;
+}
 
 
+/* Form  */
+.form {
+  height: 300px;
+  overflow: auto;
+}
+.input-wrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+.input-wrapper:not(last-child) {
+  margin-bottom: 20px;
+}
+.card {
 }
