@@ -50,6 +50,7 @@ html {
   background-color: rgb(219, 210, 210);
   max-width: 400px;
   padding: 40px 0 0 40px;
+  overflow: auto;
 }
 
 .adminka-card-top {
@@ -72,8 +73,8 @@ html {
 
 /* Form  */
 .form {
-  height: 370px;
-  overflow: auto;
+  /* height: 370px; */
+  /* overflow: auto; */
 }
 .input-wrapper {
   background-color: #fff;
@@ -85,7 +86,6 @@ html {
   margin-bottom: 20px;
 }
 .card {
-  /* border: 1px solid #ccc; */
 }
 
 .balance {
@@ -137,11 +137,13 @@ overflow: auto;
 
 .balance__headeing__buttom {
   font-size: 18px;
+  text-transform: capitalize;
 }
 
 .balance__text {
   font-weight: 400;
   font-size: 14px;
+  text-transform: capitalize;
 
 }
 
