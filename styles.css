@@ -147,8 +147,15 @@ overflow: auto;
 @media only screen and (max-width: 900px) {
   .adminka-wrapper {
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .adminka-cards {
     width: 700px;
   }
+}
+@media only screen and (max-width: 700px) {
+ .balance {
+   width: 400px;
+ }
 }
