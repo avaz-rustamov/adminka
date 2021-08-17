@@ -48,7 +48,7 @@ html {
 
 .adminka-cards {
   background-color: rgb(219, 210, 210);
-  max-width: 400px;
+  width: 400px;
   padding: 40px 0 0 40px;
   overflow: auto;
 }
@@ -151,7 +151,10 @@ overflow: auto;
     margin-right: 20px;
   }
   .adminka-cards {
-    width: 700px;
+    max-width: 1000px;
+  }
+  .card {
+    /* width: 100%; */
   }
 }
 @media only screen and (max-width: 700px) {
@@ -162,6 +165,7 @@ overflow: auto;
  }
 
  .adminka-cards {
+      /* width: 400px; */
       margin-left: 20px;
       margin-right: 20px;
  }
