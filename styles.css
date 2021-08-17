@@ -70,12 +70,6 @@ html {
   padding-right: 60px;
 }
 
-
-/* Form  */
-.form {
-  /* height: 370px; */
-  /* overflow: auto; */
-}
 .input-wrapper {
   background-color: #fff;
   border-radius: 5px;
@@ -88,6 +82,8 @@ html {
 .card {
 }
 
+
+/* BALANCE SECTION  */
 .balance {
   background-color: #fff;
   padding: 50px;
@@ -101,8 +97,6 @@ overflow: auto;
   border-bottom: 1px solid #ccc;
   padding-bottom: 40px;
 }
-
-
 
 .balance__heading {
   margin-right: auto;
@@ -149,4 +143,12 @@ overflow: auto;
 
 .price {
   color: #734488;
+}
+@media only screen and (max-width: 900px) {
+  .adminka-wrapper {
+    flex-direction: column;
+  }
+  .adminka-cards {
+    width: 700px;
+  }
 }
